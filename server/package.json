@@ -1,0 +1,19 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "description": "graphql-node tutorial",
+  "main": "src/index.js",
+  "repository": "git@github.com:WRekim/hackernews-node.git",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/cli": "2.15.0",
+    "@prisma/client": "2.15.0",
+    "apollo-server": "^2.19.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "npx nodemon"
+  }
+}
